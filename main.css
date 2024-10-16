@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 26px;
+    color: white;
+}
+
+body {
+    padding-top: 100px;
+    background-image: url(./imagens/i-recreated-one-of-the-ai-generated-frutiger-aero-v0-ygcplvnmdz7a1.png);
+    background-repeat:no-repeat;
+    background-color: grey;
+}
+
+input,
+button
+{
+    padding: 8px;
+    border-radius: 3px;
+    border: solid rgba(128,128,128,0.3) ;
+    background: linear-gradient(to top,black,grey);
+    color: #fff;
+    padding: 12px;
+}
+
+::placeholder{
+    color: #fff;
+}
+
+table th {
+    border-bottom: 2px solid #000;
+    padding:16px;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+table {
+    max-width: 840px;
+    width: 100%;
+    color: black;
+    font-size: 18px;
+}
+
+table td {
+    padding: 16px 0;
+    text-align: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.181);
+} 
